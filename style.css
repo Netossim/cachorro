@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color:   #000000;
+    background-image: url(https://seu.dog/wp-content/uploads/2019/07/adestramento-de-c%C3%A3es.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    image-resolution: 1;
+}
+div.sticky{
+    background-color: rgb(26, 186, 146);
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    padding: 5px;
+    color: #000000;
+}
+.divRelative{
+    background-color: rgb(26, 186, 146);
+    position: relative;
+    text-align: center;
+    top: 50%;
+    height: 20px;
+    left: 0px;
+    color: #000000;
+}
+.divFixed{
+    background-color: rgb(186, 26, 26);
+    position: fixed;
+    text-align: center;
+    border-radius: 10%;
+    border: green 10%;
+    left: 0px;
+}
+.divStatic{
+    background-color: rgb(26, 186, 146);
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    left: 400px;
+    color: #000000;
+}
+.divAbsolute{
+    background-color: rgb(26, 186, 146);
+    position: absolute;
+    text-align: center;
+    height: auto;
+    left: auto;
+    color: #000000;
+}
